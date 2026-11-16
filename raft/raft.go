@@ -82,8 +82,8 @@ const (
 
 const (
 	heartbeatInterval = 100 * time.Millisecond
-	electionMin       = 300 * time.Millisecond
-	electionMax       = 500 * time.Millisecond
+	electionMin       = 150 * time.Millisecond
+	electionMax       = 300 * time.Millisecond
 )
 
 // return currentTerm and whether this server
